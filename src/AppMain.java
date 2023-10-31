@@ -7,8 +7,6 @@ public class AppMain {
             public void run() {
                 AppGUI gui = new AppGUI();
                 gui.createGUI();
-                // System.out.println(WeatherData.getLocationData("Tokyo"));
-                // System.out.println(WeatherData.getCurrentTime());
             }
         });
     }
